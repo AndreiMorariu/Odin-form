@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./Norse-Bold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+.left-container {
+  background: url("halie-west-25xggax4bSA-unsplash.jpg") no-repeat center center /
+    cover;
+  color: #fff;
+  position: relative;
+}
+
+.odin-logo {
+  width: 6rem;
+}
+
+.left-container h1 {
+  font-family: "Norse Bold", sans-serif;
+  padding: 1rem 0 1rem 0;
+  position: absolute;
+  top: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+}
+
+.right-container {
+  background: #f4f4f4;
+}
+
+.right-container .lead {
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 7rem 0 4.2rem 2rem;
+}
+
+.right-container .lead span {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+form h2 {
+  padding: 1rem 0 1rem 2rem;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.form-container {
+  background: #fff;
+  padding: 1rem 0 2rem 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 18rem;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #e5e7eb;
+}
+
+input:focus {
+  outline: none;
+  border-color: #665df5;
+}
+
+.left div,
+.right div {
+  margin-bottom: 1rem;
+}
+
+button {
+  font-weight: 500;
+  color: #fff;
+  background-color: #596d48;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  margin: 2rem 0 2rem 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #596d48d7;
+}
+
+.login-text {
+  margin: 0 0 2rem 2rem;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.error {
+  opacity: 0;
+  font-size: 0.8rem;
+  display: block;
+  width: 100%;
+  height: 1rem;
+  color: red;
+}
